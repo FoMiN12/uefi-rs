@@ -16,7 +16,7 @@ categories = ["embedded", "no-std", "api-bindings"]
 edition = "2024"
 keywords = ["uefi", "efi"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/rust-osdev/uefi-rs"
+repository = "https://github.com/FoMiN12/uefi-rs"
 rust-version = "1.85.1"
 
 [workspace.dependencies]
