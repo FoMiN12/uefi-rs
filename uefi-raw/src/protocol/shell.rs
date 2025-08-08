@@ -49,7 +49,7 @@ bitflags! {
 #[repr(C)]
 pub struct ShellProtocol {
     pub execute: unsafe extern "efiapi" fn(
-        parent_image_handle: *const Handle,
+        parent_image_handle: Handle,
         command_line: *const Char16,
         environment: *const *const Char16,
         status_code: *mut Status,
